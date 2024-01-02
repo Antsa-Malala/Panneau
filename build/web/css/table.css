@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(78, 147, 229);
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+h3, h4, h5 {
+    color: rgb(78, 147, 229);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(78, 147, 229);
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.class-container {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Effet électrique */
+#container::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), transparent, rgba(255, 255, 255, 0.1));
+    z-index: -1;
+}
+
+#container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), transparent, rgba(255, 255, 255, 0.1));
+    z-index: -1;
+}
+.source-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-block {
+    flex: 1;
+}
+
+.class-container {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Style for the unit card */
+.unit-card {
+    max-width: 400px; /* Adjust the value as needed */
+    padding: 15px;
+    margin: 15px;
+}
+
+/* Style for the unit card */
+.unit-card {
+    max-width: calc(100% / 2); /* One-third of the viewport width */
+    margin: 15px auto; /* Center the card horizontally */
+    padding: 15px;
+}
+
+/* Header style */
+.unit-card h4 {
+    margin-bottom: 10px;
+    color:#75163F;
+    text-align: center;
+}
+
+/* Info container style */
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Individual info block style */
+.info-block {
+    flex: 1;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Style for the paragraphs inside info block */
+.info-block p {
+    margin: 0;
+    color: #666;
+}
+

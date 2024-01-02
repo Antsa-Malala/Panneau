@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-Dec-2023, 15:51:15
+    Author     : isaia
+*/
+
+body {
+    font-family:cursive;
+    background-color: #f4f4f4;
+    margin-top: 100px;
+    padding: 0;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(142,161,176);
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: rgb(78,147,229);
+    font-family:cursive;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(60,113,176);
+    font-family:cursive;
+}
+
+
