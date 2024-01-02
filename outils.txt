@@ -1,0 +1,6 @@
+netbeans
+calculatrice heure
+postgres
+navigateur
+visual -> script sql
+excel
